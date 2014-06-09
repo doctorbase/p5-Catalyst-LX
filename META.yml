@@ -22,14 +22,14 @@ no_index:
 provides:
   Catalyst::Action::Deserialize::XML::Hash::LX:
     file: lib/Catalyst/Action/Deserialize/XML/Hash/LX.pm
-    version: 0.06
+    version: 0.07
   Catalyst::Action::Serialize::XML::Hash::LX:
     file: lib/Catalyst/Action/Serialize/XML/Hash/LX.pm
-    version: 0.06
+    version: 0.07
 requires:
   Catalyst::Action: 0
   XML::Hash::LX: 0.06
   perl: 5.6.2
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.06
+version: 0.07

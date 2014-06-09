@@ -1,4 +1,3 @@
-.cvsignore
 Changes
 ex/TestApp/Controller/API/REST.pm
 inc/Module/AutoInstall.pm
