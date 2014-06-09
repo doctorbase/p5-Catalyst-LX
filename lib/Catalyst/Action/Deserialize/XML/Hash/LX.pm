@@ -52,7 +52,8 @@ sub execute {
 	}
 
 	if ( $rbody ) {
-		warn "Hash::LX deserialize";
+		# patched by revmischa
+		#warn "Hash::LX deserialize";
 		my $rdata = eval { xml2hash( $rbody, $opts ? ( ref $opts eq 'ARRAY' ? @$opts : %$opts ) : () ) };
 		return $@ if $@;
 		$c->request->data($rdata);
