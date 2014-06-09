@@ -9,7 +9,7 @@ license  'perl';
 build_requires 'Test::More';
 build_requires 'lib::abs', '0.90';
 
-requires 'XML::Hash::LX' => '0.06';
+requires 'XML::Hash::LX' => '0.07';
 requires 'Catalyst::Action' => '0';
 
 provides 'Catalyst::Action::Deserialize::XML::Hash::LX' => {
