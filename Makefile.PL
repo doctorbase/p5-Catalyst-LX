@@ -2,7 +2,7 @@ use inc::Module::Install 0.79;
 
 name     'Catalyst-Action-Serialize-XML-Hash-LX';
 all_from 'lib/Catalyst/Action/Serialize/XML/Hash/LX.pm';
-version   my $v = '0.06';
+version   my $v = '0.07';
 author   'Mons Anderson <mons@cpan.org>';
 license  'perl';
 
